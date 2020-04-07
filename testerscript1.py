@@ -31,7 +31,7 @@ def readTests(filename):
             tests.append(data)
     return tests
 
-# urlCall creates and performs the http get request to environment to be tested
+# urlCall creates and performs the http post request to environment to be tested
 def urlTestCall(internalCode, status, message, result_status, result_responseCode, result_cancellationReason ):
     env_api = 'http://%s/%s/%s' % (data[project]['env_host'], data[project]['env_uri'], '1234-4321-1234')
     #dump test body, this will not interfer in results
