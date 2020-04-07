@@ -3,4 +3,3 @@ PROJ1:
   sim_uri: __admin/mappings/
   env_host: BT-env.lab:8012
   env_uri: project1/eligibility
-
